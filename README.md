@@ -50,4 +50,4 @@ Everything is calculated with formulas, so if you change the data, every result 
 - Answer the same business questions with SQL
 
 ---
-**Saideepak Ramarangula** · Berlin · [LinkedIn](#) · [Email](#)
+**Saideepak Ramarangula** · Berlin
