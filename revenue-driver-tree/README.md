@@ -1,5 +1,7 @@
 # Revenue Driver Tree – Excel & Python
 
+*Part 2 of my [Retail Sales Analytics – Excel Portfolio](../README.md).*
+
 A business performance deep-dive on 150 retail orders (Jan–Jun 2026). It breaks revenue into its drivers, explains why revenue changes from month to month, and turns the result into recommendations.
 
 **Revenue = Orders × Units per order × Average price per unit × Net rate (1 − discount)**
@@ -48,7 +50,7 @@ revenue-driver-tree/
 └── README.md
 ```
 
-Data: the same retail dataset as the main [Excel Retail Analytics Portfolio](../README.md) in this repository.
+Data: the same 150 orders as part 1 of the project (KPI dashboard).
 
 ---
 **Saideepak Ramarangula** · Berlin

@@ -1,6 +1,9 @@
 # Retail Sales Analytics – Excel Portfolio
 
-An Excel project that turns raw retail data into a KPI dashboard, plus the formula work behind it: business-rule flags, customer segmentation, conditional totals, text cleaning and visual exception reporting.
+An Excel project in two parts, built on the same 150 retail orders:
+
+1. **KPI dashboard and formula work:** business-rule flags, customer segmentation, conditional totals, text cleaning and visual exception reporting.
+2. **[Revenue driver tree](revenue-driver-tree/):** why revenue moves from month to month, with a revenue bridge in Excel and Python and three recommendations.
 
 Built during the **Business Analytics with AI** programme (Frontlines EduTech, live online, 2026).
 
@@ -29,7 +32,7 @@ Everything is calculated with formulas, so if you change the data, every result 
 - Revenue peaked in **February** and was lowest in **June**. The half-year was uneven, not steadily growing.
 - The top two products (**Laptop** and **Dining Table**) bring in **44%** of all revenue.
 
-## Follow-up project: Revenue Driver Tree
+## Part 2: Revenue Driver Tree
 
 The [revenue-driver-tree](revenue-driver-tree/) folder takes the same 150 orders one step further. It breaks revenue into a driver tree (orders × units per order × average price × net rate after discount), builds a month-to-month revenue bridge in Excel and Python, and ends with three recommendations.
 
