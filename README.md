@@ -29,6 +29,12 @@ Everything is calculated with formulas, so if you change the data, every result 
 - Revenue peaked in **February** and was lowest in **June**. The half-year was uneven, not steadily growing.
 - The top two products (**Laptop** and **Dining Table**) bring in **44%** of all revenue.
 
+## Follow-up project: Revenue Driver Tree
+
+The [revenue-driver-tree](revenue-driver-tree/) folder takes the same 150 orders one step further. It breaks revenue into a driver tree (orders × units per order × average price × net rate after discount), builds a month-to-month revenue bridge in Excel and Python, and ends with three recommendations.
+
+Main finding: orders are stable at 23–26 per month, so revenue swings come from product mix, not demand. From February to June the price / product-mix effect alone cut revenue by 8,205.
+
 ## How to use
 
 1. Download `Retail_Sales_Excel_Analytics_Portfolio.xlsx` and open it in Microsoft Excel (2019 or 365 recommended).
@@ -40,8 +46,12 @@ Everything is calculated with formulas, so if you change the data, every result 
 ```
 ├── Retail_Sales_Excel_Analytics_Portfolio.xlsx
 ├── README.md
-└── images/
-    └── dashboard.png
+├── images/
+│   └── dashboard.png
+└── revenue-driver-tree/
+    ├── Revenue_Driver_Tree.xlsx
+    ├── driver_tree.py
+    └── README.md
 ```
 
 ## Next steps
